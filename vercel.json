@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd artifacts/web-app && npx vite build --config vite.config.ts",
+  "outputDirectory": "artifacts/web-app/dist",
+  "installCommand": "npm install -g pnpm && pnpm install"
+}
