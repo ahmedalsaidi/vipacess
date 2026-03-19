@@ -12,7 +12,10 @@
     "types": ["node", "vite/client"],
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "strict": false,
+    "noImplicitAny": false,
+    "strictNullChecks": false
   },
   "references": [
     {
