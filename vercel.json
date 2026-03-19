@@ -1,5 +1,5 @@
 {
-  "buildCommand": "cd artifacts/web-app && npx vite build --config vite.config.ts",
+  "buildCommand": "pnpm --filter @workspace/web-app run build",
   "outputDirectory": "artifacts/web-app/dist",
-  "installCommand": "npm install -g pnpm && pnpm install"
+  "installCommand": "npm install -g pnpm && pnpm install --frozen-lockfile=false"
 }
