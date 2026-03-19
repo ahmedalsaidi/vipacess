@@ -1,6 +1,6 @@
 {
   "buildCommand": "pnpm --filter @workspace/web-app run build",
-  "outputDirectory": "artifacts/web-app/dist",
+  "outputDirectory": "artifacts/web-app/dist/public",
   "installCommand": "npm install -g pnpm@latest && pnpm install --no-frozen-lockfile",
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
